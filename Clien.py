@@ -1,5 +1,4 @@
 __author__ = 'jor'
-import
 class Clien:
     nombre=""
     apellido=""
@@ -8,7 +7,7 @@ class Clien:
     maill=""
     telef=""
     sexo=""
-    def __init__(self,nombre,apellido,dni,sexo="H",telef,quenta="",maill=""):
+    def __init__(self,nombre,apellido,dni,telef,sexo="H",quenta="",maill=""):
         self.nombre=nombre
         self.apellido=apellido
         self.dni=dni
@@ -33,3 +32,5 @@ class Clien:
     def getNombre(self):
         return self.nombre
 
+    def get(self):
+        pass
