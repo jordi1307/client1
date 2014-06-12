@@ -32,3 +32,4 @@ class Clien:
         return self.nombre
     def getNombre(self):
         return self.nombre
+
